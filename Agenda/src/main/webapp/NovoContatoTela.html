@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Agenda de Contatos</title>
+<link rel="icon" href="./img/fone.png">
+<link rel="stylesheet" href="estilo.css">
+	<script type="text/javascript" src = "scripts/valida.js"></script>
+</head>
+
+<body>
+	<h1>Criar novo contato</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" id="nome1" placeholder="Nome"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="fone" id="fone1" placeholder="Fone"
+					class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" id="email1" placeholder="E-mail"
+					class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type = "submit" value="Adicionar" class="Botao1"
+			onclick="validador()">
+		<a href="main" class="Botao2">Voltar</a>
+			
+	</form>
+	
+</body>
+</html>
