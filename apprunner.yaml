@@ -1,0 +1,12 @@
+apiVersion: v1alpha1
+kind: Config
+metadata:
+  name: appconfig
+  namespace: default
+spec:
+  runtime: java
+  entrypoint: java -jar myapp.war
+  resources:
+    requests:
+      cpu: 100m
+      memory: 256Mi
